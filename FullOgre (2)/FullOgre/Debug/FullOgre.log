@@ -1,0 +1,19 @@
+﻿빌드 시작: 2017-12-17 오후 4:30:42
+     1>2 노드의 "C:\Users\parkjoosung\Documents\GitHub\OgreFinal\OgreFinal\FullOgre (2)\FullOgre\FullOgre.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\parkjoosung\Downloads\OgreSDK_vc11_v1-9-0\include\OIS" /I"C:\Users\parkjoosung\Downloads\OgreSDK_vc11_v1-9-0\include\OGRE" /I"C:\Users\parkjoosung\Downloads\OgreSDK_vc11_v1-9-0\include\OGRE\Overlay" /I"C:\Users\parkjoosung\Downloads\OgreSDK_vc11_v1-9-0\Samples\Common\include" /I"C:\Users\parkjoosung\Downloads\OgreSDK_vc11_v1-9-0\boost" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TutorialApplication.cpp
+         TutorialApplication.cpp
+     1>c:\users\parkjoosung\documents\github\ogrefinal\ogrefinal\fullogre (2)\fullogre\tutorialapplication.cpp(517): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+     1>c:\users\parkjoosung\documents\github\ogrefinal\ogrefinal\fullogre (2)\fullogre\tutorialapplication.cpp(551): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\parkjoosung\Documents\GitHub\OgreFinal\OgreFinal\FullOgre (2)\Debug\FullOgre.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\parkjoosung\Downloads\OgreSDK_vc11_v1-9-0\lib\Debug" /LIBPATH:"C:\Users\parkjoosung\Downloads\OgreSDK_vc11_v1-9-0\boost\lib" OgreMain_d.lib OgreOverlay_d.lib OIS_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\parkjoosung\Documents\GitHub\OgreFinal\OgreFinal\FullOgre (2)\Debug\FullOgre.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\parkjoosung\Documents\GitHub\OgreFinal\OgreFinal\FullOgre (2)\Debug\FullOgre.lib" /MACHINE:X86 Debug\TutorialApplication.obj
+         FullOgre.vcxproj -> C:\Users\parkjoosung\Documents\GitHub\OgreFinal\OgreFinal\FullOgre (2)\Debug\FullOgre.exe
+       PostBuildEvent:
+         copy "C:\Users\parkjoosung\Documents\GitHub\OgreFinal\OgreFinal\FullOgre (2)\Debug\\FullOgre.exe" "C:\Users\parkjoosung\Downloads\OgreSDK_vc11_v1-9-0\Bin\Debug"
+         :VCEnd
+                 1개 파일이 복사되었습니다.
+     1>"C:\Users\parkjoosung\Documents\GitHub\OgreFinal\OgreFinal\FullOgre (2)\FullOgre\FullOgre.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:21.24

@@ -1,0 +1,49 @@
+material Tree_Bark {
+    receive_shadows on
+    transparency_casts_shadows on
+    technique {
+        pass {
+            ambient 0.8 0.8 0.8
+            diffuse 0.64 0.64 0.64
+            specular 0.5 0.5 0.5 12.5
+            emissive 0.0 0.0 0.0
+	    //depth_write off
+	    lighting on
+	    cull_hardware none
+	    cull_software none
+	    
+	    texture_unit
+	    {
+		texture Bark.jpg
+		filtering trilinear
+	    }
+        }
+    }
+}
+
+material Tree_Leaf {
+    receive_shadows on
+    transparency_casts_shadows on
+    technique {
+        pass {
+            ambient 0.8 0.8 0.8
+            diffuse 0.64 0.64 0.64 1.0
+            specular 0.5 0.5 0.5 12.5
+            emissive 0.0 0.0 0.0
+	    //depth_write off
+	    lighting on
+	    cull_hardware none
+	    cull_software none
+
+	    alpha_rejection greater 150
+            scene_blend alpha_blend	    
+
+	    texture_unit
+	    {
+		tex_address_mode clamp
+		texture TreeLeaf.png
+		filtering trilinear
+	    }
+        }
+    }
+}
